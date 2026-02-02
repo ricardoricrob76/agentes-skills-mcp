@@ -1,6 +1,6 @@
 # Agentes de IA Generativa — Técnicas, Ferramentas e Métodos Avançados
 
-**Autor:** Ricardo Roberto (colaboração: ChatGPT) **Data:** 02/02/2026
+**Autor:** Ricardo Roberto de Lima -> com IAGEN **Data:** 02/02/2026
 
 ---
 
