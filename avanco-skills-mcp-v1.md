@@ -44,3 +44,20 @@ def validar_padrao_projeto(projeto_id: str) -> dict:
     # Lógica de validação determinística
     status = consultar_db_normas(projeto_id)
     return {"status": "valido" if status else "irregular"}
+```
+
+## 6. Benefícios Estratégicos
+
+    Redução de Alucinação: Ao usar uma Skill determinística, a IA reporta o que a função retornou em vez de prever o próximo token.
+
+    Reutilização: Uma Skill criada para um departamento pode ser consumida por diferentes agentes de IA em toda a empresa via MCP.
+
+    Auditoria e Rastreabilidade: Todas as chamadas via MCP podem ser monitorizadas, criando um log de quais ações a IA executou.
+
+## 7. Conclusão
+
+O uso de Skills via MCP transforma a IA Generativa num sistema operacional capaz de interagir com ferramentas corporativas de forma segura e escalável. A IA decide a estratégia, o MCP governa o acesso e a Skill executa a tarefa.
+
+Documento Técnico
+Autor: Ricardo Roberto de Lima
+Tópico: Integração MCP e Skills em IA Generativa
