@@ -1,8 +1,8 @@
-# 🤖 Cenário: Claude como Orquestrador de Rotina para Gerentes de Operações
+#  Cenário: Claude como Orquestrador de Rotina para Gerentes de Operações
 
 ---
 
-## 📋 Descrição Geral
+##  Descrição Geral
 
 **Perfil do usuário:** Gerente de Operações em uma empresa de médio porte do setor de logística. Responsável por monitorar KPIs diários, coordenar equipes, responder a incidentes e gerar relatórios para a diretoria. Lida com dados distribuídos em múltiplos sistemas (ERP, CRM, planilhas, e-mails, Slack) e sofre com sobrecarga de informação e decisões reativas.
 
@@ -12,7 +12,7 @@
 
 ---
 
-## 🏗️ Arquitetura Resumida
+##  Arquitetura Resumida
 
 ```
 ┌─────────────────────────────────────────────────────────┐
@@ -51,7 +51,7 @@
 
 ---
 
-## 🔄 Fluxo Operacional Passo a Passo
+##  Fluxo Operacional Passo a Passo
 
 ### Gatilho
 O gerente abre o Claude às 8h00 e digita:
@@ -127,29 +127,29 @@ Para os 2 e-mails que exigem resposta, Claude rascunha as respostas com base no 
 O gerente recebe, dentro do Claude e no seu e-mail, às **8h07**:
 
 ```
-📊 BRIEFING DIÁRIO — 16/04/2026
+ BRIEFING DIÁRIO — 16/04/2026
 
-🔴 ALERTAS CRÍTICOS (3)
+ ALERTAS CRÍTICOS (3)
   • Entrega #4421 — Grupo Martins — 2 dias de atraso — Chamado aberto
   • Entrega #4389 — Rede Farma — 1 dia de atraso — Sem comunicação ao cliente
   • Entrega #4401 — Logix Sul — Atraso previsto hoje às 14h
 
-📧 E-MAILS PRIORITÁRIOS (4 de 47)
+ E-MAILS PRIORITÁRIOS (4 de 47)
   • [URGENTE] Dir. Comercial: "Precisamos conversar sobre o Grupo Martins"
     → Rascunho de resposta gerado, aguardando sua aprovação.
   • [AÇÃO] Fornecedor TransLog: "Atraso na rota SP-interior"
     → Rascunho de resposta gerado.
 
-⚠️ PADRÃO DE RISCO DETECTADO
+ PADRÃO DE RISCO DETECTADO
   TransLog SP: 68% de atraso nas últimas 2 semanas.
   Sugestão: Acionar fornecedor reserva para rotas críticas.
 
-📅 REUNIÃO 10H — PAUTA ATUALIZADA
+ REUNIÃO 10H — PAUTA ATUALIZADA
   1. KPIs da semana (dados inseridos automaticamente)
   2. Situação TransLog SP (dados inseridos automaticamente)
   3. Revisão de processos de comunicação com clientes
 
-✅ AÇÕES AUTOMÁTICAS JÁ EXECUTADAS
+ AÇÕES AUTOMÁTICAS JÁ EXECUTADAS
   • Notificações enviadas via Slack para 3 responsáveis
   • Documento de pauta atualizado no Drive
   • Rascunhos de e-mail aguardando aprovação
@@ -157,7 +157,7 @@ O gerente recebe, dentro do Claude e no seu e-mail, às **8h07**:
 
 ---
 
-## ✅ Benefícios no Dia a Dia
+##  Benefícios no Dia a Dia
 
 | Benefício | Antes | Depois |
 |---|---|---|
@@ -170,7 +170,7 @@ O gerente recebe, dentro do Claude e no seu e-mail, às **8h07**:
 
 ---
 
-## 🚀 Possíveis Extensões e Evoluções do Cenário
+##  Possíveis Extensões e Evoluções do Cenário
 
 ### Curto prazo
 - **Briefing por voz:** Integração com assistente de voz para receber o briefing enquanto o gerente está no caminho para o escritório.
@@ -187,7 +187,7 @@ O gerente recebe, dentro do Claude e no seu e-mail, às **8h07**:
 
 ---
 
-## 💡 Considerações Finais
+##  Considerações Finais
 
 Este cenário demonstra que Claude com MCP e Skills não é apenas um chatbot mais sofisticado — é uma **camada de inteligência operacional** que transforma dados dispersos em decisões claras, elimina trabalho repetitivo e coloca o profissional em modo estratégico desde o início do dia.
 
@@ -200,6 +200,9 @@ A chave está na combinação:
 
 ---
 
-*Autor: Ricardo Roberto de Lima - Engenheiro de IA e Arquiteto de Dados.
+*Autor: Ricardo Roberto de Lima - Engenheiro de IA e Arquiteto de Dados.*
+
 *Documento gerado em: 16 de abril de 2026*
+
 *Arquitetura: Claude + MCP + Skills | Cenário: Gestão de Operações Logísticas*
+
