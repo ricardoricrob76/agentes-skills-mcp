@@ -590,6 +590,9 @@ forma uma arquitetura robusta e escalável para ambientes corporativos de IA Gen
 
 ---
 
+# Elaboração
+* Autor: Ricardo Roberto de Lima - Engenheiro de IA.
+
 # Referências
 
 * https://langfuse.com
