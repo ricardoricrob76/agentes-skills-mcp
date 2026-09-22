@@ -1,6 +1,6 @@
 # JEV Classificador e LLMs Tradicionais
 
-> Artigo técnico para publicação no GitHub.
+> Artigo técnico - JEV/Estatístico | Modelo Machine Learning | LLM.
 
 ## 1. Introdução
 
